@@ -10,8 +10,7 @@
 /* Gilroy Regular */
 @font-face {
   font-family: 'Gilroy';
-  src: url('/assets/fonts/gilroy/Gilroy-Regular.woff2') format('woff2'),
-       url('/assets/fonts/gilroy/Gilroy-Regular.woff') format('woff');
+  src: url('/fonts/gilroy/Gilroy-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
@@ -19,8 +18,7 @@
 /* Gilroy Regular Italic */
 @font-face {
   font-family: 'Gilroy';
-  src: url('/assets/fonts/gilroy/Gilroy-RegularItalic.woff2') format('woff2'),
-       url('/assets/fonts/gilroy/Gilroy-RegularItalic.woff') format('woff');
+  src: url('/fonts/gilroy/Gilroy-RegularItalic.woff') format('woff');
   font-weight: 400;
   font-style: italic;
 }
@@ -28,8 +26,7 @@
 /* Gilroy Medium */
 @font-face {
   font-family: 'Gilroy';
-  src: url('/assets/fonts/gilroy/Gilroy-Medium.woff2') format('woff2'),
-       url('/assets/fonts/gilroy/Gilroy-Medium.woff') format('woff');
+  src: url('/fonts/gilroy/Gilroy-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
 }
@@ -37,8 +34,7 @@
 /* Gilroy Medium Italic */
 @font-face {
   font-family: 'Gilroy';
-  src: url('/assets/fonts/gilroy/Gilroy-MediumItalic.woff2') format('woff2'),
-       url('/assets/fonts/gilroy/Gilroy-MediumItalic.woff') format('woff');
+  src: url('/fonts/gilroy/Gilroy-MediumItalic.woff') format('woff');
   font-weight: 500;
   font-style: italic;
 }
@@ -46,8 +42,7 @@
 /* Gilroy Semibold */
 @font-face {
   font-family: 'Gilroy';
-  src: url('/assets/fonts/gilroy/Gilroy-Semibold.woff2') format('woff2'),
-       url('/assets/fonts/gilroy/Gilroy-Semibold.woff') format('woff');
+  src: url('/fonts/gilroy/Gilroy-Semibold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
 }
@@ -55,8 +50,7 @@
 /* Gilroy Semibold Italic */
 @font-face {
   font-family: 'Gilroy';
-  src: url('/assets/fonts/gilroy/Gilroy-SemiboldItalic.woff2') format('woff2'),
-       url('/assets/fonts/gilroy/Gilroy-SemiboldItalic.woff') format('woff');
+  src: url('/fonts/gilroy/Gilroy-SemiboldItalic.woff') format('woff');
   font-weight: 600;
   font-style: italic;
 }
@@ -64,8 +58,7 @@
 /* Gilroy Bold */
 @font-face {
   font-family: 'Gilroy';
-  src: url('/assets/fonts/gilroy/Gilroy-Bold.woff2') format('woff2'),
-       url('/assets/fonts/gilroy/Gilroy-Bold.woff') format('woff');
+  src: url('/fonts/gilroy/Gilroy-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }
@@ -73,8 +66,7 @@
 /* Gilroy Bold Italic */
 @font-face {
   font-family: 'Gilroy';
-  src: url('/assets/fonts/gilroy/Gilroy-BoldItalic.woff2') format('woff2'),
-       url('/assets/fonts/gilroy/Gilroy-BoldItalic.woff') format('woff');
+  src: url('/fonts/gilroy/Gilroy-BoldItalic.woff') format('woff');
   font-weight: 700;
   font-style: italic;
 }
@@ -82,8 +74,7 @@
 /* Gilroy Extrabold */
 @font-face {
   font-family: 'Gilroy';
-  src: url('/assets/fonts/gilroy/Gilroy-Extrabold.woff2') format('woff2'),
-       url('/assets/fonts/gilroy/Gilroy-Extrabold.woff') format('woff');
+  src: url('/fonts/gilroy/Gilroy-Extrabold.woff') format('woff');
   font-weight: 800;
   font-style: normal;
 }
@@ -91,8 +82,7 @@
 /* Gilroy Extrabold Italic */
 @font-face {
   font-family: 'Gilroy';
-  src: url('/assets/fonts/gilroy/Gilroy-ExtraboldItalic.woff2') format('woff2'),
-       url('/assets/fonts/gilroy/Gilroy-ExtraboldItalic.woff') format('woff');
+  src: url('/fonts/gilroy/Gilroy-ExtraboldItalic.woff') format('woff');
   font-weight: 800;
   font-style: italic;
 }
@@ -100,8 +90,7 @@
 /* Gilroy Black */
 @font-face {
   font-family: 'Gilroy';
-  src: url('/assets/fonts/gilroy/Gilroy-Black.woff2') format('woff2'),
-       url('/assets/fonts/gilroy/Gilroy-Black.woff') format('woff');
+  src: url('/fonts/gilroy/Gilroy-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
 }
@@ -109,8 +98,7 @@
 /* Gilroy Black Italic */
 @font-face {
   font-family: 'Gilroy';
-  src: url('/assets/fonts/gilroy/Gilroy-BlackItalic.woff2') format('woff2'),
-       url('/assets/fonts/gilroy/Gilroy-BlackItalic.woff') format('woff');
+  src: url('/fonts/gilroy/Gilroy-BlackItalic.woff') format('woff');
   font-weight: 900;
   font-style: italic;
 }
