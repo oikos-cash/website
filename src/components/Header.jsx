@@ -28,7 +28,6 @@ export default function Header() {
                 </div>
                 
                 <nav className="header-nav">
-                    <a href="#mission" className="nav-link">Mission</a>
                     <a href="#the-challenge-section" className="nav-link">Challenge</a>
                     <a href="#protocol-token-section" className="nav-link">Token</a>
                     <a href="#roadmap" className="nav-link">Roadmap</a>
