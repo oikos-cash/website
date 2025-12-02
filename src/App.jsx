@@ -3,6 +3,7 @@ import { isMobile } from 'react-device-detect';
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
 import BackgroundCanvas from './components/BackgroundCanvas';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import HeroSlide from './components/slides/HeroSlide';
 import MissionSlide from './components/slides/MissionSlide';
 import MarketSlide from './components/slides/MarketSlide';
@@ -127,6 +128,8 @@ function PitchDeck() {
                     </ScrollObserverWrapper>
                 ))}
             </div>
+
+            <Footer />
 
             {/* Mobile indicator - shows device type */}
             {isMobile && (
