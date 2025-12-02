@@ -5,7 +5,7 @@ export default function RoadmapSlide({ isActive }) {
     const { t } = useLanguage();
 
     return (
-        <div className={`slide ${isActive ? 'active' : ''}`}>
+        <div id="the-future-section" className={`slide ${isActive ? 'active' : ''}`}>
             <div className="content-wrapper">
                 <EditableText textKey="roadmap_eyebrow" as="h3" />
                 <EditableText textKey="roadmap_title" as="h2" />

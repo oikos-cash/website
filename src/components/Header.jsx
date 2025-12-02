@@ -30,7 +30,7 @@ export default function Header() {
                 <nav className="header-nav">
                     <a href="#the-challenge-section" className="nav-link">Challenge</a>
                     <a href="#protocol-token-section" className="nav-link">Token</a>
-                    <a href="#roadmap" className="nav-link">Roadmap</a>
+                    <a href="#the-future-section" className="nav-link">Roadmap</a>
                 </nav>
 
                 <div className="header-actions">
