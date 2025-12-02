@@ -5,7 +5,7 @@ export default function ProblemFoundersSlide({ isActive }) {
     const { t } = useLanguage();
 
     return (
-        <div className={`slide ${isActive ? 'active' : ''}`}>
+        <div id="the-challenge-section" className={`slide ${isActive ? 'active' : ''}`}>
             <div className="content-wrapper">
                 <EditableText textKey="problem_founders_eyebrow" as="h3" />
                 <EditableText textKey="problem_founders_title" as="h2" />
