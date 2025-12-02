@@ -6,7 +6,7 @@ export default function NomaTokenSlide({ isActive }) {
     const { t } = useLanguage();
 
     return (
-        <div className={`slide ${isActive ? 'active' : ''}`}>
+        <div id="protocol-token-section" className={`slide ${isActive ? 'active' : ''}`}>
             <div className="content-wrapper">
                 <EditableText textKey="noma_token_eyebrow" as="h3" />
                 <EditableText textKey="noma_token_title" as="h2" />
