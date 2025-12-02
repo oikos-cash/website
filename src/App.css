@@ -6,7 +6,7 @@
     --accent-tertiary: #8D6108; /* Using the darker gold as tertiary for consistency */
     --surface-color: rgba(20, 20, 20, 0.9);
     --border-color: #333333;
-    --font-main: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --font-main: 'Gilroy', sans-serif;
 }
 
 body, html {
