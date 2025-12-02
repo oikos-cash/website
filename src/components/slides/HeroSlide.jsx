@@ -31,14 +31,14 @@ export default function HeroSlide({ isActive }) {
 
                 <div className="hero-actions fade-item">
                     <button className="btn-primary">
-                        Join Presale
+                        Launch App
                     </button>
                     <button className="btn-secondary">
-                        Read Whitepaper
+                        Read Documentation
                     </button>
                 </div>
 
-                <div className="hero-features fade-item">
+                {/* <div className="hero-features fade-item">
                     <div className="feature-pill">
                         <span className="pill-icon">⚖️</span>
                         <EditableText textKey="hero_fairness_title" as="span" />
@@ -47,7 +47,7 @@ export default function HeroSlide({ isActive }) {
                         <span className="pill-icon">💧</span>
                         <EditableText textKey="hero_liquidity_title" as="span" />
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );

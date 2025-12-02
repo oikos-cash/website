@@ -12,11 +12,10 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 100%;
+    min-height: 100%;
     font-family: var(--font-main);
     color: var(--text-color);
     overflow-x: hidden;
-    overflow-y: auto;
     scroll-behavior: smooth;
 }
 
@@ -29,7 +28,7 @@ body {
 }
 
 #root {
-    height: 100%;
+    min-height: 100%;
 }
 
 #bgCanvas {
@@ -511,13 +510,6 @@ li::before {
 
 /* Mobile styles */
 @media (max-width: 768px) {
-    body, html {
-        overflow: hidden;
-        height: 100%;
-        position: fixed;
-        width: 100%;
-    }
-
     h1 { font-size: 2rem; }
     h2 { font-size: 1.5rem; }
     h3 { font-size: 1rem; }
@@ -541,11 +533,8 @@ li::before {
 
     .slide {
         padding: 5rem 0 0 0;
-        display: block;
-        overflow-y: auto;
-        overflow-x: hidden;
-        -webkit-overflow-scrolling: touch;
-        height: 100%;
+        height: auto; /* Allow slide to grow naturally */
+        min-height: 100vh;
     }
 
 
