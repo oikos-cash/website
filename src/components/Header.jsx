@@ -9,8 +9,12 @@ export default function Header() {
 
     useEffect(() => {
         const handleScroll = () => {
-            setScrolled(window.scrollY > 10);
+            setScrolled(window.scrollY > 0);
         };
+        
+        // Check initial scroll position
+        handleScroll();
+        
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);

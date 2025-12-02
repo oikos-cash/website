@@ -10,11 +10,11 @@
 }
 
 .app-header.scrolled {
-    background: #050505; /* Solid dark background */
-    backdrop-filter: none; /* Remove blur as it's solid now */
+    background: #000000 !important; /* Solid black background */
+    backdrop-filter: none;
     padding: 0.75rem 2rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 4px 20px rgba(0,0,0,0.8);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.9);
 }
 
 .header-container {
