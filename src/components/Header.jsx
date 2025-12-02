@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../context/LanguageContext';
-import logo from '../assets/logo.svg'; // Assuming logo is importable, otherwise use path
+import logo from '../assets/logo_dark.png'; // Assuming logo is importable, otherwise use path
+
 import './Header.css';
 
 export default function Header() {
