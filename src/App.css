@@ -359,7 +359,8 @@ li::before {
     left: 0;
     height: 4px;
     background: var(--accent-primary);
-    transition: width 0.4s ease-in-out;
+    transition: width 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: width;
     z-index: 2001;
 }
 
