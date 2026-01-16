@@ -30,12 +30,17 @@ export default function HeroSlide({ isActive }) {
                 </div>
 
                 <div className="hero-actions fade-item">
-                    <button className="btn-primary">
-                        Launch App
-                    </button>
+                    <a href="https://app.oikos.cash" target="_blank" rel="noopener noreferrer">
+                        <button className="btn-primary">
+                            <EditableText textKey="Launch App" as="span" />
+                        </button>
+                    </a>
+                    <a href="https://docs.oikos.cash" target="_blank" rel="noopener noreferrer" className="learn-more-link">
                     <button className="btn-secondary">
-                        Read Documentation
+                        Read the docs
                     </button>
+                    </a>
+
                 </div>
 
                 {/* <div className="hero-features fade-item">

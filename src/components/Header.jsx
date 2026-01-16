@@ -34,9 +34,11 @@ export default function Header() {
                 </nav>
 
                 <div className="header-actions">
+                    <a href="https://app.oikos.cash" target="_blank" rel="noopener noreferrer">
                     <button className="cta-button-small">
                         Launch App
                     </button>
+                    </a>                    
                 </div>
             </div>
         </header>

@@ -25,14 +25,14 @@ export default function Footer() {
                         <a href="#mission">Mission</a>
                         <a href="#token">Tokenomics</a>
                         <a href="#roadmap">Roadmap</a>
-                        <a href="#whitepaper">Whitepaper</a>
+                        {/* <a href="#whitepaper">Whitepaper</a> */}
                     </div>
                     <div className="footer-column">
                         <h4>Community</h4>
-                        <a href="#" target="_blank" rel="noopener noreferrer">Telegram</a>
-                        <a href="#" target="_blank" rel="noopener noreferrer">Twitter / X</a>
-                        <a href="#" target="_blank" rel="noopener noreferrer">Discord</a>
-                        <a href="#" target="_blank" rel="noopener noreferrer">Medium</a>
+                        <a href="https://t.me/oikoscash" target="_blank" rel="noopener noreferrer">Telegram</a>
+                        <a href="https://x.com/oikos_cash" target="_blank" rel="noopener noreferrer">Twitter / X</a>
+                        <a href="https://discord.gg/Pk6uTsyv3K" target="_blank" rel="noopener noreferrer">Discord</a>
+                        <a href="https://medium.com/@oikoscash" target="_blank" rel="noopener noreferrer">Medium</a>
                     </div>
                     <div className="footer-column">
                         <h4>Legal</h4>
