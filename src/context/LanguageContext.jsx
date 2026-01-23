@@ -4,7 +4,7 @@ const translations = {
     en: {
         hero_tag: "Live on Binance Smart Chain",
         hero_title: "Oikos Protocol",
-        hero_subtitle: "The Unruggable Liquidity Layer",
+        hero_subtitle: "Next-gen DeFi Launchpad",
         hero_fairness_title: "Unruggable",
         hero_fairness_desc: "Liquidity managed by protocol",
         hero_liquidity_title: "Automated",
