@@ -2,7 +2,7 @@ import { createContext, useContext, useState, useCallback } from 'react';
 
 const translations = {
     en: {
-        hero_tag: "Live on Binance Smart Chain",
+        hero_tag: "Live on BNB Chain",
         hero_title: "Oikos Protocol",
         hero_subtitle: "Next-gen DeFi Launchpad",
         hero_fairness_title: "Unruggable",
@@ -137,7 +137,7 @@ const translations = {
         roadmap_eyebrow: "The Future",
         roadmap_title: "Roadmap & Directions",
         roadmap_item_1_date: "NOW",
-        roadmap_item_1_title: "Binance Smart Chain Mainnet",
+        roadmap_item_1_title: "BNB Chain Mainnet",
         roadmap_item_1_text: "Protocol release. Finding product market fit.",
         roadmap_item_2_date: "SOON",
         roadmap_item_2_title: "AI Integration",
@@ -163,7 +163,7 @@ const translations = {
         controls_bg_intensity: "Intensity",
     },
     es: {
-        hero_tag: "En vivo en Binance Smart Chain Mainnet",
+        hero_tag: "En vivo en BNB Chain Mainnet",
         hero_title: "Protocolo Oikos",
         hero_subtitle: "La Capa de Liquidez Indestructible",
         hero_fairness_title: "Indestructible",
@@ -298,7 +298,7 @@ const translations = {
         roadmap_eyebrow: "El Futuro",
         roadmap_title: "Hoja de Ruta y Direcciones",
         roadmap_item_1_date: "AHORA",
-        roadmap_item_1_title: "Binance Smart Chain",
+        roadmap_item_1_title: "BNB Chain",
         roadmap_item_1_text: "Lanzamiento del protocolo. Buscando ajuste producto-mercado.",
         roadmap_item_2_date: "PRONTO",
         roadmap_item_2_title: "Integración IA",

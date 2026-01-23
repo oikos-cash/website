@@ -10,7 +10,7 @@ export default function HeroSlide({ isActive }) {
                 <div className="tag fade-item">
                     <img
                         src="/assets/bnb.png"
-                        alt="Binance Smart Chain"
+                        alt="BNB Chain"
                         style={{ height: '1.2em', verticalAlign: 'text-bottom', marginRight: '0.5rem' }}
                     />
                     <EditableText textKey="hero_tag" as="span" />

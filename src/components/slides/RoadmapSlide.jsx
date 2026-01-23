@@ -15,7 +15,7 @@ export default function RoadmapSlide({ isActive }) {
                         <EditableText textKey="roadmap_item_1_date" as="div" className="roadmap-date" style={{ color: 'var(--accent-tertiary)' }} />
                         <div>
                             <strong>
-                                <img src="/assets/bnb.png" alt="Binance Smart Chain" style={{ height: '1em', verticalAlign: 'text-bottom', marginRight: '0.3rem' }}/>
+                                <img src="/assets/bnb.png" alt="BNB Chain" style={{ height: '1em', verticalAlign: 'text-bottom', marginRight: '0.3rem' }}/>
                                 <EditableText textKey="roadmap_item_1_title" as="span" />
                             </strong>
                             <br/><EditableText textKey="roadmap_item_1_text" as="span" />

@@ -21,17 +21,17 @@ const LINKTREE_CONFIG = {
     },
     {
       title: "Twitter / X",
-      url: "https://twitter.com/oaborade",
+      url: "https://twitter.com/oikos_cash",
       icon: "fab fa-twitter",
     },
     {
       title: "Discord",
-      url: "https://discord.gg/oikos",
+      url: "https://discord.gg/Pk6uTsyv3K",
       icon: "fab fa-discord",
     },
     {
       title: "Telegram",
-      url: "https://t.me/oikos",
+      url: "https://t.me/oikoscash",
       icon: "fab fa-telegram",
     },
     {
