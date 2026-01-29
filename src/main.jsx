@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
 import App from './App.jsx'
 import Linktree from './pages/Linktree.jsx'
+import NotFound from './pages/NotFound.jsx'
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/linktree",
     element: <Linktree />,
+  },
+  {
+    path: "*",
+    element: <NotFound />,
   },
 ])
 

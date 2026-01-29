@@ -20,6 +20,11 @@ const LINKTREE_CONFIG = {
       icon: "fas fa-book",
     },
     {
+      title: "Blog",
+      url: "https://oikoscash.medium.com/",
+      icon: "fab fa-blog",
+    },    
+    {
       title: "Twitter / X",
       url: "https://twitter.com/oikos_cash",
       icon: "fab fa-twitter",
