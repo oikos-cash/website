@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react';
-import { useKanban } from '../../context/KanbanContext';
+import { useKanban, API_BASE } from '../../context/KanbanContext';
 
 export default function BoardSettings({ onClose }) {
   const {
@@ -166,7 +166,7 @@ export default function BoardSettings({ onClose }) {
             <div className="kanban-logo-section">
               {currentBoard.logo ? (
                 <div className="kanban-logo-preview">
-                  <img src={`/api/uploads/${currentBoard.logo}`} alt="Board logo" />
+                  <img src={`${API_BASE}/uploads/${currentBoard.logo}`} alt="Board logo" />
                   {canEdit && (
                     <button onClick={handleLogoDelete} className="kanban-logo-delete">×</button>
                   )}

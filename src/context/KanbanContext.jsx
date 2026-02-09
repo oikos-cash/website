@@ -2,7 +2,7 @@ import { createContext, useContext, useState, useEffect, useCallback } from 'rea
 
 const KanbanContext = createContext(null);
 
-const API_BASE = import.meta.env.VITE_API_URL || '/api';
+export const API_BASE = import.meta.env.VITE_API_URL || '/api';
 
 export function KanbanProvider({ children }) {
   const [user, setUser] = useState(null);

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { KanbanProvider, useKanban } from '../context/KanbanContext';
+import { KanbanProvider, useKanban, API_BASE } from '../context/KanbanContext';
 import LoginForm from '../components/kanban/LoginForm';
 import Board from '../components/kanban/Board';
 import AdminPanel from '../components/kanban/AdminPanel';
@@ -127,7 +127,7 @@ function KanbanContent() {
                     <div className="kanban-board-item-content">
                       {board.logo && (
                         <img
-                          src={`/api/uploads/${board.logo}`}
+                          src={`${API_BASE}/uploads/${board.logo}`}
                           alt=""
                           className="kanban-board-logo-small"
                         />

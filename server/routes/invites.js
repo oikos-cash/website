@@ -46,7 +46,7 @@ async function sendInviteEmail(email, token, inviterName, boardName) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: process.env.RESEND_FROM || 'Kanban <onboarding@resend.dev>',
+        from: process.env.RESEND_FROM || 'Kanban <noreply@oikos.cash>',
         to: [email],
         subject,
         html,

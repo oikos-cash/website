@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useKanban } from '../../context/KanbanContext';
+import { useKanban, API_BASE } from '../../context/KanbanContext';
 import Column from './Column';
 import CardModal from './CardModal';
 
@@ -81,7 +81,7 @@ export default function Board() {
         <div className="kanban-board-header-title">
           {currentBoard.logo && (
             <img
-              src={`/api/uploads/${currentBoard.logo}`}
+              src={`${API_BASE}/uploads/${currentBoard.logo}`}
               alt=""
               className="kanban-board-header-logo"
             />
