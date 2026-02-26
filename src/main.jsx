@@ -6,6 +6,7 @@ import App from './App.jsx'
 import Linktree from './pages/Linktree.jsx'
 import Kanban from './pages/Kanban.jsx'
 import NotFound from './pages/NotFound.jsx'
+import Team from './pages/Team.jsx'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/kanban",
     element: <Kanban />,
+  },
+  {
+    path: "/team",
+    element: <Team />,
   },
   {
     path: "*",

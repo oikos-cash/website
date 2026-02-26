@@ -17,6 +17,7 @@ import LaunchpadSlide from './components/slides/LaunchpadSlide';
 import BusinessSlide from './components/slides/BusinessSlide';
 import NomaTokenSlide from './components/slides/NomaTokenSlide';
 import HoldersSlide from './components/slides/HoldersSlide';
+import TeamSlide from './components/slides/TeamSlide';
 import RoadmapSlide from './components/slides/RoadmapSlide';
 import ContactSlide from './components/slides/ContactSlide';
 import './App.css';
@@ -35,6 +36,7 @@ const slides = [
     HoldersSlide,
     BusinessSlide,
     NomaTokenSlide,
+    TeamSlide,
     RoadmapSlide,
     ContactSlide,
 ];
