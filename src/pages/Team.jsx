@@ -257,6 +257,14 @@ const styles = {
     fontSize: '0.85rem',
     margin: 0,
   },
+  disclaimer: {
+    color: '#444',
+    fontSize: '0.7rem',
+    lineHeight: 1.6,
+    maxWidth: '700px',
+    margin: '16px auto 0',
+    textAlign: 'center',
+  },
 };
 
 function TwitterIcon() {
@@ -422,6 +430,12 @@ export default function Team() {
 
       <div style={styles.footer}>
         <p style={styles.footerText}>Oikos Protocol</p>
+        <p style={styles.disclaimer}>
+          Notice: The profiles and biographical information provided on this page are for informational and professional background purposes only. The individuals listed, including founders, early token investors, and external consultants, provide technical strategy, operational insights, and ecosystem support based on their respective professional histories.
+        </p>
+        <p style={styles.disclaimer}>
+          Nothing contained within these profiles or this website constitutes financial, legal, or investment advice. No information here represents a solicitation, recommendation, or endorsement to buy, sell, or hold any digital assets or securities. Users are encouraged to conduct their own due diligence and consult with professional advisors before engaging with decentralized protocols or digital assets.
+        </p>
       </div>
     </div>
   );
