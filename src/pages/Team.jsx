@@ -56,6 +56,26 @@ const keyframesStyle = `
     0%, 100% { opacity: 0.2; transform: scale(1); }
     50% { opacity: 1; transform: scale(1.5); }
   }
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+  }
+  @media (max-width: 900px) {
+    .team-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (max-width: 600px) {
+    .team-grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  }
 `;
 
 const styles = {
@@ -116,15 +136,7 @@ const styles = {
     margin: 0,
     lineHeight: 1.6,
   },
-  grid: {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(3, 1fr)',
-    gap: '28px',
-    maxWidth: '1100px',
-    margin: '0 auto',
-    position: 'relative',
-    zIndex: 10,
-  },
+  // grid styles moved to CSS class .team-grid for responsive breakpoints
   card: {
     background: 'rgba(22, 27, 34, 0.5)',
     backdropFilter: 'blur(16px)',
@@ -422,7 +434,7 @@ export default function Team() {
         </p>
       </div>
 
-      <div style={styles.grid}>
+      <div className="team-grid">
         {TEAM_MEMBERS.map((member, i) => (
           <TeamCard key={member.name} member={member} index={i} />
         ))}

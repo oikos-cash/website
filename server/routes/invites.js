@@ -17,24 +17,26 @@ async function sendInviteEmail(email, token, inviterName, boardName) {
   const baseUrl = process.env.APP_URL || 'http://localhost:5173';
   const inviteUrl = `${baseUrl}/kanban?invite=${token}`;
 
-  const subject = boardName
-    ? `You've been invited to join "${boardName}" on Kanban`
-    : `You've been invited to join Kanban`;
+  const subject = 'Invitation to Oikos Protocol Kanban';
 
   const html = `
-    <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
-      <h2 style="color: #f8bd45; margin-bottom: 20px;">Kanban Board Invitation</h2>
-      <p style="color: #333; font-size: 16px; line-height: 1.5;">
-        ${inviterName} has invited you to join ${boardName ? `the board "<strong>${boardName}</strong>" on ` : ''}Kanban.
-      </p>
-      <p style="color: #333; font-size: 16px; line-height: 1.5;">
-        Click the button below to accept the invitation and create your account:
-      </p>
-      <a href="${inviteUrl}" style="display: inline-block; background: #f8bd45; color: #000; padding: 14px 28px; text-decoration: none; border-radius: 6px; font-weight: bold; margin: 24px 0;">
-        Accept Invitation
-      </a>
-      <p style="color: #888; font-size: 14px; margin-top: 30px;">This invitation expires in 7 days.</p>
-      <p style="color: #888; font-size: 14px;">If you didn't expect this invitation, you can ignore this email.</p>
+    <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; background: #1a1a2e; border-radius: 12px; overflow: hidden;">
+      <div style="padding: 32px 32px 32px;">
+        <h2 style="color: #f8bd45; margin: 0 0 20px; text-align: center;">Kanban Board Invitation</h2>
+        <p style="color: #ccc; font-size: 16px; line-height: 1.5;">
+          ${inviterName} has invited you to join ${boardName ? `the board "<strong style="color: #f8bd45;">${boardName}</strong>" on ` : ''}Oikos Protocol Kanban.
+        </p>
+        <p style="color: #ccc; font-size: 16px; line-height: 1.5;">
+          Click the button below to accept the invitation and create your account:
+        </p>
+        <div style="text-align: center;">
+          <a href="${inviteUrl}" style="display: inline-block; background: #f8bd45; color: #000; padding: 14px 28px; text-decoration: none; border-radius: 6px; font-weight: bold; margin: 24px 0;">
+            Accept Invitation
+          </a>
+        </div>
+        <p style="color: #666; font-size: 14px; margin-top: 30px;">This invitation expires in 7 days.</p>
+        <p style="color: #666; font-size: 14px;">If you didn't expect this invitation, you can ignore this email.</p>
+      </div>
     </div>
   `;
 
@@ -46,7 +48,7 @@ async function sendInviteEmail(email, token, inviterName, boardName) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: process.env.RESEND_FROM || 'Kanban <noreply@oikos.cash>',
+        from: process.env.RESEND_FROM || 'Oikos Protocol <noreply@oikos.cash>',
         to: [email],
         subject,
         html,
