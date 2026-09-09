@@ -23,17 +23,6 @@ const TEAM_MEMBERS = [
       linkedin: "https://www.linkedin.com/in/raudinm",
     },
   },
-  {
-    name: "Daniel Ferraro",
-    role: "Marketing & Strategy",
-    bio: "7+ years building Web3 and AI ecosystems, driving growth and community engagement.",
-    avatar: "/assets/daniel.png",
-    initials: "DF",
-    socials: {
-      twitter: "https://x.com/@danielferraros",
-      linkedin: "https://www.linkedin.com/in/dferraros/",
-    },
-  },
 ];
 
 function TwitterIcon() {
