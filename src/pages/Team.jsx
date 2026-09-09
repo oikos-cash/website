@@ -22,21 +22,21 @@ const keyframesStyle = `
   }
   .team-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* auto-fit collapses unused tracks, so however many people are in the
+       roster the cards stay centred rather than left-aligned against a fixed
+       three-column track set. Capping the track keeps cards from stretching
+       when there are only two, and the breakpoints fall out of the min width:
+       3 across above ~1000px, 2 down to ~650px, 1 below that. */
+    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 340px));
+    justify-content: center;
     gap: 28px;
     max-width: 1100px;
     margin: 0 auto;
     position: relative;
     z-index: 10;
   }
-  @media (max-width: 900px) {
-    .team-grid {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
   @media (max-width: 600px) {
     .team-grid {
-      grid-template-columns: 1fr;
       gap: 20px;
     }
   }

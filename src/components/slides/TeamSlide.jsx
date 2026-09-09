@@ -157,7 +157,10 @@ export default function TeamSlide({ isActive }) {
 
         <div className="grid-3" style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(3, 1fr)',
+          // Centres however many cards the roster holds — see .team-grid in
+          // src/pages/Team.jsx for the same treatment on the standalone page.
+          gridTemplateColumns: 'repeat(auto-fit, minmax(min(260px, 100%), 300px))',
+          justifyContent: 'center',
           gap: '1.5rem',
           marginTop: '2rem',
         }}>
