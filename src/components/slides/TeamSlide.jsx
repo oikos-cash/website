@@ -1,29 +1,5 @@
 import { useState } from 'react';
-
-const TEAM_MEMBERS = [
-  {
-    name: "Yank Carlos R. Espinal",
-    role: "Software Engineer",
-    bio: "Full stack development, scalable products, and AI systems integration.",
-    avatar: "/assets/yank.png",
-    initials: "YC",
-    socials: {
-      github: "https://github.com/nubo94",
-      linkedin: "https://www.linkedin.com/in/yankcarlos/",
-    },
-  },
-  {
-    name: "Raudin Moreno",
-    role: "Cloud Specialist",
-    bio: "Building robust, scalable infrastructure for decentralized systems.",
-    avatar: "/assets/raudin.png",
-    initials: "RM",
-    socials: {
-      github: "https://github.com/raudinm",
-      linkedin: "https://www.linkedin.com/in/raudinm",
-    },
-  },
-];
+import { TEAM_MEMBERS } from '../../data/team';
 
 function TwitterIcon() {
   return (
@@ -161,7 +137,7 @@ function MemberCard({ member }) {
         color: '#9ca3af',
         margin: '0 0 1rem 0',
         textShadow: 'none',
-      }}>{member.bio}</p>
+      }}>{member.shortBio || member.bio}</p>
 
       <div style={{ display: 'flex', justifyContent: 'center', gap: '8px' }}>
         {Object.entries(member.socials).map(([type, url]) => (

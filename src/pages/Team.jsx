@@ -1,43 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/logo.svg';
-
-const TEAM_MEMBERS = [
-  {
-    name: "Yank Carlos R. Espinal",
-    role: "Software Engineer",
-    bio: "Software Engineer with extensive experience with full stack developmentv, scalable products, and AI systems integration.",
-    avatar: "/assets/yank.png",
-    initials: "YC",
-    socials: {
-      github: "https://github.com/nubo94",
-      linkedin: "https://www.linkedin.com/in/yankcarlos/",
-    },
-  },
-  {
-    name: "Raudin Moreno",
-    role: "Cloud Specialist",
-    bio: "Software Engineer & Cloud Specialist building robust, scalable infrastructure for the next generation of decentralized systems.",
-    avatar: "/assets/raudin.png",
-    initials: "RM",
-    socials: {
-      website: "https://raudinmoreno.vercel.app/",
-      github: "https://github.com/raudinm",
-      linkedin: "https://www.linkedin.com/in/raudinm",
-    },
-  },
-  {
-    name: "Daniel Ferraro",
-    role: "Marketing & Strategy",
-    bio: "Strategic marketer with 7+ years building Web3 and AI ecosystems, driving growth and community engagement across decentralized platforms.",
-    avatar: "/assets/daniel.png",
-    initials: "DF",
-    socials: {
-      twitter: "https://x.com/@danielferraros",
-      linkedin: "https://www.linkedin.com/in/dferraros/",
-    },
-  },
-];
+import { TEAM_MEMBERS } from '../data/team';
 
 const keyframesStyle = `
   @keyframes fadeInUp {
