@@ -1,0 +1,24 @@
+node_modules
+dist
+dist-ssr
+.git
+.gitignore
+
+# The Express kanban API is deployed separately and is not part of the static
+# frontend build. Excluding it also keeps server/.env, the SQLite database and
+# uploaded board logos out of the build context.
+server
+
+# Secrets. .env holds RESEND_API_KEY and is untracked; .env.production is
+# tracked and MUST reach the build so Vite can inline VITE_API_URL.
+.env
+.env.local
+.env.*.local
+
+*.log
+*.sh
+CONTEXT.md
+README.md
+.vscode
+.idea
+.DS_Store
